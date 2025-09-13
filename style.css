@@ -28,6 +28,8 @@ header{
     width: 65%;
     margin-left: 350px;
     border-radius: 20px;
+    top: 0px;
+    position: fixed;
 }
 nav{
     display: flex;
