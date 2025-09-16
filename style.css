@@ -132,10 +132,7 @@ li{
     display: flex;
     flex-direction: column;
 }
-h4{
-    margin-left: 10px;
-    margin-top: 5px;
-}
+
 .school,.self-learn{
     width: 600px;
     text-align: center;
@@ -172,6 +169,9 @@ h4{
 }
 .skills{
     margin-top: 50px;
+}
+.skill-name{
+    margin-left: 10px;
 }
 .skill-img-container{
     margin-top: 10px;
