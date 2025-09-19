@@ -36,6 +36,7 @@ header{
     color: white;
     padding: 10px;
     width: 128%;
+    position: fixed;
 }
 nav{
     display: none;
@@ -81,8 +82,35 @@ nav{
 @media screen and (min-width:500px){
     header{
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 20px;
+        position: fixed;
+
+    }
+    .home-container{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .hire-me-button{
+        padding: 10px;
+        width: 80px;
+        font-size: 16px;
+    }
+    .about-me{
+        margin-left: 300px;
+        margin-top: 60px;
+    }
+    .role{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    }
+    .tittle-line{
+        font-size: 20px;
+    }
+    .profile{
+        width: 400px;
+        height: 400px;
     }
     main{
         height: 100vh;
