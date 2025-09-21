@@ -22,7 +22,6 @@ body{
 .name{
     font-family: "Dancing Script", cursive;
     font-weight: 600;
-
 }
 
 main{
@@ -32,15 +31,25 @@ main{
 header{
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
+    background-color:yellow;
+    color:black;
     padding: 10px;
     width: 128%;
     position: fixed;
+
 }
 nav{
     display: none;
 }
+.nav-button{
+    display: block;
+}
+.nav-icon{
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
 .profile{
     width: 200px;
     height: 200px;
@@ -108,6 +117,9 @@ nav{
     .tittle-line{
         font-size: 20px;
     }
+    .nav-icon{
+        display: none;
+    }
     .profile{
         width: 400px;
         height: 400px;
@@ -128,7 +140,7 @@ nav{
     }
     a{
         text-decoration: none;
-        color: white;
+        color:black;
     }
 
 }
