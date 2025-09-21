@@ -10,6 +10,11 @@
 html {
     scroll-behavior:smooth;
 }
+html,body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
 body{
   font-family: "Poppins", sans-serif;
   font-size: 18px;
@@ -31,12 +36,11 @@ main{
 header{
     display: flex;
     justify-content: space-between;
-    background-color:yellow;
-    color:black;
+    background-color:black;
+    color:white;
     padding: 10px;
-    width: 128%;
+    width: 100%;
     position: fixed;
-
 }
 nav{
     display: none;
@@ -124,7 +128,7 @@ nav{
         width: 400px;
         height: 400px;
     }
-    main{
+    main,#about-me,#projects,#contact{
         height: 100vh;
     }
     nav{
@@ -140,7 +144,7 @@ nav{
     }
     a{
         text-decoration: none;
-        color:black;
+        color:white;
     }
 
 }
