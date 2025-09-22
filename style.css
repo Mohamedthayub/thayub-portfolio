@@ -90,3 +90,72 @@ h2,p,button{
 .hire-me-button:hover{
     cursor: pointer;
 }
+
+
+@media screen and (max-width:500px){
+    .nav-show{
+        display: none;
+    }
+    #home{
+        height: 100vh;
+        padding-top: 100px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    
+    }
+    .line{
+        width: 40px;
+        margin-top: 5px;
+        height: 5px;
+        background-color: white;
+    }
+    #nav-items{
+        position: absolute;
+        top: 80px;
+        display: flex;
+    }
+    ul{
+        flex-direction: column;
+        background-color: black;
+        width: 450px;
+        margin-top: 10px;
+    }
+    li{
+        margin-top: 10px;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 90px;
+    }
+    .home-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .about-me{
+        margin-top: 0px;
+    }
+    .role{
+        width: 100%;
+    }
+    .tittle-line{
+        width: 100%;
+    }
+    .hire-me-button{
+        margin-left: 70px;
+        cursor: pointer;
+    }
+    
+    h2,p,button{
+        margin-top: 20px;
+    }
+}
