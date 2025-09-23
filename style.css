@@ -94,7 +94,7 @@ h2,p,button{
 
 @media screen and (max-width:500px){
     .nav-show{
-        display: none;
+        display: block;
     }
     #home{
         height: 100vh;
@@ -126,6 +126,7 @@ h2,p,button{
         background-color: black;
         width: 450px;
         margin-top: 10px;
+        display: none;
     }
     li{
         margin-top: 10px;
@@ -134,7 +135,7 @@ h2,p,button{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: 90px;
+        margin-left: 70px;
     }
     .home-container{
         display: flex;
