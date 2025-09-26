@@ -50,6 +50,9 @@ a{
     font-size: 20px;
 }
 
+#nav-items{
+    margin-top: 10px;
+}
 .profile{
     width: 400px;
     height: 400px;
@@ -185,6 +188,8 @@ p{
     height: 100vh;
 }
 @media screen and (max-width:500px){
+
+    /* home  */
     .nav-show{
         display: block;
     }
@@ -247,8 +252,30 @@ p{
         margin-left: 70px;
         cursor: pointer;
     }
+    .role, .tittle-line, .hire-me-button{
+        margin-top: 15px;
+    }
+    /* skills */
+    #about-me{
+        height: 130vh;
+        margin-top: 0px;
+        width: 450px;
+    }
+    .about{
+        text-align: center;
+    }
+    .short-introduction{
+        width: 390px;
+        padding: 10px;
+    }
+    .education-container{
+        width: auto;
     
-    h2,p,button{
-        margin-top: 20px;
+    }
+    .skill-img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
