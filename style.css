@@ -257,26 +257,23 @@ p{
     #about-me{
         height: 130vh;
         margin-top: 0px;
-        width: 450px;
     }
     .about{
         text-align: center;
     }
     .short-introduction{
-        width: 380px;
-        margin-left: 10px;
+        max-width: 360px;
     }
     .education-detail{
-        width: 380px;
-        margin-left: 10px;
+        max-width: 360px;
     }
     .about-container{
         flex-direction: column;
     }
     .skill-container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-left: 60px;
+        grid-template-columns: 1fr 1fr 1fr ;
+        margin-left: 40px;
     }
     
 }
