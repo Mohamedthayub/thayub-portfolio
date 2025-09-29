@@ -183,13 +183,68 @@ p{
 }
 /* project page */
 #projects{
-    height: 100vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-tittle{
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 100px;
+}
+.ecommerce-card-image{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-name{
+    margin-top: 10px;
+    text-align: center;
+}
+.about-project{
+    width: 400px;
+    margin-left: 50px;
+}
+.view-button{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    cursor: pointer;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.view-button{
+    padding: 10px;
+     font-weight: 600;
+     text-align: center;
 }
 
 /* contact page */
 #contact{
-    height: 100vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 @media screen and (max-width:500px){
 
     /* home  */
@@ -272,7 +327,7 @@ p{
     }
     .skill-container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr ;
         margin-left: 40px;
     }
     
