@@ -327,8 +327,26 @@ p{
     }
     .skill-container{
         display: grid;
-        grid-template-columns: 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr ;
         margin-left: 40px;
+    }
+    /* skill  section*/
+    #projects{
+        height: 130vh;
+        margin-top: 200px;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .ecommerce-card-image{
+        width: 480px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    .card1,.card2,.card3{
+        margin-top: 50px;
     }
     
 }
