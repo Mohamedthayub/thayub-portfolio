@@ -1,16 +1,40 @@
 import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
-    return(
-        <header className="bg-black flex justify-around p-4">
-            <h2  className="italic font-bold text-2xl text-white cursor-pointer">Mohamed Thayub</h2>
-            <div className="flex ">
-                <NavLink to="/"><p className="font-semibold text-white cursor-pointer">Home</p></NavLink>
-                <NavLink to="about"><p className="font-semibold text-white ml-6 cursor-pointer">About</p></NavLink>
-                <NavLink to="skills"><p className="font-semibold text-white ml-6 cursor-pointer">Skills</p></NavLink>
-                <NavLink to="projects"><p className="font-semibold text-white ml-6 cursor-pointer">Projects</p></NavLink>
-                <NavLink to="contact"><p className="font-semibold text-white ml-6 cursor-pointer">Contact</p></NavLink>
-            </div>
-        </header>
-    )
-}
+  const navLinkClass = ({ isActive }) =>
+    isActive
+      ? "text-red-500 font-semibold border-b-2 border-red-500 pb-1"
+      : "text-gray-300 hover:text-white font-semibold pb-1";
+      {navLinkClass}
+  return (
+    <header className="bg-black flex justify-around items-center p-4">
+      <h2 className="italic font-bold text-2xl text-white cursor-pointer">
+        Mohamed Thayub
+      </h2>
+
+      <nav className="flex gap-6">
+        <NavLink to="/"  className={navLinkClass}>
+          Home
+        </NavLink>
+
+        <NavLink to="/about" className={navLinkClass}>
+          About
+        </NavLink>
+
+        <NavLink to="/skills" className={navLinkClass}>
+          Skills
+        </NavLink>
+
+        <NavLink to="/projects" className={navLinkClass}>
+          Projects
+        </NavLink>
+
+        <NavLink to="/contact" className={navLinkClass}>
+          Contact
+        </NavLink>
+      </nav>
+    </header>
+  );
+};
+
 export default Navbar;
