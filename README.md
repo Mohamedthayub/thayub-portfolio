@@ -4,7 +4,7 @@ Personal portfolio website built with React + Tailwind CSS.
 
 ## 🚀 Status
 
-In Progress
+[In Progress](https://thayub-portfolio.vercel.app/)
 
 ## 🛠 Tech Stack
 
