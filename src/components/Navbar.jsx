@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const navLinkClass = ({ isActive }) =>
     isActive
-      ? "text-red-500 font-semibold border-b-2 border-red-500 pb-1"
+      ? "text-blue-500 font-semibold border-b-2 border-blue-500 pb-1"
       : "text-gray-300 hover:text-white font-semibold pb-1";
       {navLinkClass}
-  return (
-    <header className="bg-black flex justify-around items-center p-4">
+  return ( 
+    <header className="bg-black flex justify-around items-center p-4 border-b-1 border-white">
       <h2 className="italic font-bold text-2xl text-white cursor-pointer">
         Mohamed Thayub
       </h2>
