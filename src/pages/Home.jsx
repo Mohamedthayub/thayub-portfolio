@@ -8,7 +8,7 @@ const Home = () => {
         <h2 className="text-4xl font-bold">Hi, I'm Thayub</h2>
 
         <h3 className="mt-4 text-2xl font-semibold text-blue-500">
-          Frontend Developer
+          Web Engineer
         </h3>
 
         <p className="mt-4 text-lg text-gray-300">
